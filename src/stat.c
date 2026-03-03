@@ -366,7 +366,7 @@ human_fstype (STRUCT_STATVFS const *statfsbuf)
     case S_MAGIC_EXT: /* 0x137D local */
       return "ext";
     case S_MAGIC_EXT2: /* 0xEF53 local */
-      return "ext2/ext3";
+      return "ext2/ext3/ext4";
     case S_MAGIC_EXT2_OLD: /* 0xEF51 local */
       return "ext2";
     case S_MAGIC_F2FS: /* 0xF2F52010 local */
